@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/xiangqing.css">
+</head>
+<script>
+    function resize(originSize,type){
+        var type=type||"x";
+        var widths=document.documentElement.clientWidth;
+        var heights=document.documentElement.clientHeight;
+
+        if(type=="x"){
+            var scale=widths/originSize*100;
+            alert(scale)
+        }else if(type=="y"){
+            var scale=heights/originSize*100;
+        }
+        //alert(widths)
+
+        document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+
+    }
+    window.onload=function(){
+        resize(1334,"y");
+    }
+</script>
+<body>
+<div class="box">
+    <div class="header">
+        <div class="conter">
+            <div class="left">
+                <img src="img/jian.png" alt="">
+            </div>
+            <span class="lang">新浪新闻</span>
+            <div class="right">
+                <img src="img/" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner-img">
+        <span class="da">刘士余脱稿痛批"野蛮收购"</span>
+        </div>
+    </div>
+   <div class="box-conter">
+     <div class="biaoti">
+         刘士余批野蛮人强盗式收购：
+     </div>
+       <div  class="biaoti1">
+         是人性和商业道德的沦丧
+       </div>
+       <!--<span class="con">在中国证券投资基金业协会第二届会员代表大会上，-->
+           <!--证监会主席刘士余发表演讲，他表示希望资产管理人，-->
+           <!--不当奢淫无度的土豪、不做兴风作浪的妖精、不做坑民-->
+           <!--害民的害人精。用来路不当的钱从事杠杆收购-->
+           <!--，行为上从门口的陌生人变成野蛮人，最后变成行-->
+           <!--业的强盗，这是不可以的。</span>-->
+   </div>
+</div>
+</body>
+</html>

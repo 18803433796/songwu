@@ -1,0 +1,96 @@
+body, ul, li, ol, img, a, i, input, form, h1, h2, h3, h4, h5, h6, p, b, dl, dt, dd, td, th, pre, span {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+.box{
+    width:100%;
+    height:100%;
+}
+.header{
+    position:fixed;
+    left:0;
+    top:0;
+    width:7.5rem;
+    height:0.9rem;
+    background:#fff;
+    z-index:11;
+}
+.conter{
+    width:6.9rem;
+    height:100%;
+    margin:0 auto;
+}
+.left{
+    width:20%;
+    height:100%;
+    float:left;
+    margin-top:-0.1rem;
+}
+.lang{
+    width:60%;
+    height:100%;
+    float:left;
+    font-size:0.36rem;
+    line-height:300%;
+}
+.right{
+    width:20%;
+    height:100%;
+    background:red;
+    float:left;
+}
+.banner{
+    width:100%;
+    height:4.5rem;
+    margin-top:0.9rem;
+
+}
+.banner-img{
+    width:100%;
+    height:100%;
+    background:url(../img/z.jpg)no-repeat;
+    background-size:cover;
+    margin-top:0.9rem;
+    position:relative;
+}
+.da{
+    font-size:0.46rem;
+    color:white;
+    position:absolute;
+    left:0.2rem;
+    bottom: 0.3rem;
+}
+.box-conter{
+    width:6.9rem;
+    height:100%;
+    margin:0 auto;
+    background:green;
+}
+.biaoti{
+    width:6.9rem;
+    height:1rem;
+    background:red;
+    font-size:0.36rem;
+    line-height:1rem;
+    text-align: center;
+}
+.biaoti1{
+    width:100%;
+    height:1rem;
+    font-size:0.36rem;
+    background:yellow;
+    line-height:1rem;
+    text-align:center;
+
+}
+.con{
+    font-size:0.24rem;
+}
